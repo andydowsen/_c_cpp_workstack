@@ -1,7 +1,5 @@
 ﻿#pragma once
-#include <Windows.h>
 #include <iostream>
-#include <stdio.h>
 #include <stdio.h>
 
 static inline int __factorial_calculate(int _integer) {

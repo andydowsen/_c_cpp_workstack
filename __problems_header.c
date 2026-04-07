@@ -44,10 +44,57 @@ static inline void __array_reversal_() {
 	}
 }
 
-static inline void __palindrome_check(char _target__string[], int _string_length__) {
-	for (unsigned int i = 0; i < _string_length__; ++i) {
-		if () {
+static inline bool __palindrome_check(char _target__string[], int _string_length__) {
+	for (unsigned int i = 0; i < _string_length__/2; i++) {
+		if (*(_target__string + i) != *(_target__string + (_string_length__ - i - 1))) {
+			return false;
+		} return true;
+	}
+}
 
+static inline void _sum_of_array() {
+	int __sum_result__ = 0;
+	int average_computation = 0;
+	const int target_array__[] = {1, 2, 3, 4, 5};
+	const int length = sizeof(target_array__) / sizeof(target_array__[0]);
+	for (unsigned int i = 0; i < length; i++) {
+		__sum_result__ += target_array__[i];
+	} printf("Sum of Array: %d\n", __sum_result__);
+	average_computation = __sum_result__ / length;
+	printf("Average of Array: %d\n", average_computation);
+}
+
+static inline int __recurse_fibonacci(int _n_fibonacci) {
+	if (_n_fibonacci ==1 || _n_fibonacci == 2) {
+		return 1;
+	} else{
+		return __recurse_fibonacci(_n_fibonacci -1) + __recurse_fibonacci(_n_fibonacci -2);
+	}
+} // O(2powN) - Time complexity
+
+static inline void _fibonacci_sequencing(int fibonacci_sequence_print) {
+	int fib_n_1 = 1, fib_n_2 = 1, fib_n_next = 0; int fibonacci_find = fibonacci_sequence_print;
+	for (unsigned int i = 0; i < fibonacci_find; i++) {
+		fib_n_1 = fib_n_2; 
+		fib_n_2 = fib_n_next;
+		fib_n_next = fib_n_1 + fib_n_2; 
+		printf("\tF[%d]:%d \n", i,fib_n_next);
+	}  
+}
+
+static inline void _vowel_counting_string(char __target_string__[], int size_of_string__strlen__) {
+	const int _vowel_count__ = 0;
+	const char _vowel__point[] = "aeiouAEIOU";
+	for (size_t i = 0; i < size_of_string__strlen__; i++) {
+		switch (size_of_string__strlen__)
+		{
+			case 'A':
+			case 'E':
+			case 'I':
+			case 'O':
+			case 'U':
+		default:
+			break;
 		}
 	}
 }
@@ -56,7 +103,6 @@ static int print_face_work() {
 	int _target_array__[] = { 5, 2, 9, 1, 5, 6 };
 	int size_of_array__ = sizeof(_target_array__) / sizeof(_target_array__[0]);
 	char _target_string__[] = "level";
-	int size_of_string__ = sizeof(_target_string__) / sizeof(_target_string__[0]);
-	__palindrome_check(_target_string__, size_of_string__);
+	int size_of_string__ = strlen(_target_string__); // O(n) time complexity
 	return 0; 
 }
