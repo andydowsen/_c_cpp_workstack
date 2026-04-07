@@ -66,19 +66,6 @@
 			[
 				0
 			]
-		},
-		{
-			"compileCommandFragments" : 
-			[
-				{
-					"fragment" : "-ZI"
-				}
-			],
-			"language" : "C",
-			"sourceIndexes" : 
-			[
-				2
-			]
 		}
 	],
 	"id" : "CMakeProject1::@6890427a1f51a3e7e1df",
@@ -114,8 +101,7 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				2
+				0
 			]
 		},
 		{
@@ -138,12 +124,6 @@
 			"backtrace" : 1,
 			"path" : "CMakeProject1.h",
 			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 1,
-			"path" : "__problems_header.c",
-			"sourceGroupIndex" : 0
 		}
 	],
 	"type" : "EXECUTABLE"

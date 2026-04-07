@@ -2,13 +2,14 @@
 #include <Windows.h>
 #include <iostream>
 #include <stdio.h>
+#include <stdio.h>
 
-static inline int __factorial_calculate(int n) {
-	if (n == 0 || n == 1) {
+static inline int __factorial_calculate(int _integer) {
+	if (_integer ==  0 || _integer == 1) {
 		return 1;
 	}
 	else {
-		return n * __factorial_calculate(n - 1);
+		return _integer  * __factorial_calculate(_integer - 1);
 	}
 }
 

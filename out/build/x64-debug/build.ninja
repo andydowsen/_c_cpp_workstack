@@ -58,15 +58,6 @@ build CMakeFiles\CMakeProject1.dir\CMakeProject1.cpp.obj: CXX_COMPILER__CMakePro
   TARGET_PDB = CMakeProject1.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\CMakeProject1.dir
 
-build CMakeFiles\CMakeProject1.dir\__problems_header.c.obj: C_COMPILER__CMakeProject1_unscanned_Debug X$:\potusrepos\C\potusrepo\CMakeProject1\__problems_header.c || cmake_object_order_depends_target_CMakeProject1
-  CONFIG = Debug
-  FLAGS = -ZI
-  OBJECT_DIR = CMakeFiles\CMakeProject1.dir
-  OBJECT_FILE_DIR = CMakeFiles\CMakeProject1.dir
-  TARGET_COMPILE_PDB = CMakeFiles\CMakeProject1.dir\
-  TARGET_PDB = CMakeProject1.pdb
-  TARGET_SUPPORT_DIR = CMakeFiles\CMakeProject1.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CMakeProject1
@@ -75,7 +66,7 @@ build CMakeFiles\CMakeProject1.dir\__problems_header.c.obj: C_COMPILER__CMakePro
 #############################################
 # Link the executable CMakeProject1.exe
 
-build CMakeProject1.exe: CXX_EXECUTABLE_LINKER__CMakeProject1_Debug CMakeFiles\CMakeProject1.dir\CMakeProject1.cpp.obj CMakeFiles\CMakeProject1.dir\__problems_header.c.obj
+build CMakeProject1.exe: CXX_EXECUTABLE_LINKER__CMakeProject1_Debug CMakeFiles\CMakeProject1.dir\CMakeProject1.cpp.obj
   CONFIG = Debug
   FLAGS = -ZI
   LINK_FLAGS = /subsystem:console
