@@ -5,16 +5,6 @@
 			"path" : "CMakeLists.txt"
 		},
 		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "X:/IDE's/visual_studio/vsmain/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "X:/IDE's/visual_studio/vsmain/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-4.2/Modules/CMakeSystem.cmake.in"
-		},
-		{
 			"isGenerated" : true,
 			"path" : "out/build/x64-debug/CMakeFiles/4.2.3-msvc3/CMakeSystem.cmake"
 		},

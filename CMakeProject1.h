@@ -10,8 +10,6 @@ static inline int __factorial_calculate(int _integer) {
 		return _integer  * __factorial_calculate(_integer - 1);
 	}
 }
-
-
 static inline int permutants_calculate(int word_of_length_form, char target_string[], bool repeating_factor) {
 	int permutants_form = 0;
 	if (repeating_factor) {
@@ -26,6 +24,10 @@ static inline int permutants_calculate(int word_of_length_form, char target_stri
 		}
 		return permutants_form;
 	}
+}
+
+static inline int _determinant_calculate() {
+
 }
 
 static inline int _trace_of_matrix__() {

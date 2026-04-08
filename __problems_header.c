@@ -99,10 +99,23 @@ static inline void _vowel_counting_string(char __target_string__[], int size_of_
 	}
 }
 
+static inline void _memory_break(int _explicit_element__) {
+	int array_length__ = 5;
+	int* _array_base = (int*)malloc(sizeof(int) * array_length__);
+	for (unsigned int i = 0; i < 5; i++) {
+		*(_array_base + i) = i + 1;
+		if (*(_array_base + i) == _explicit_element__) {
+			free(_array_base);
+			array_length__ = 4;
+			break;
+		}
+	} 
+}
+
+
 static int print_face_work() {
-	int _target_array__[] = { 5, 2, 9, 1, 5, 6 };
-	int size_of_array__ = sizeof(_target_array__) / sizeof(_target_array__[0]);
-	char _target_string__[] = "level";
-	int size_of_string__ = strlen(_target_string__); // O(n) time complexity
+	int target_array__[] = { 2, 2, 4, 1, 9 };
+	int size_of_array__ = sizeof(target_array__) / sizeof(target_array__[0]);
+	_memory_break(3);
 	return 0; 
 }
