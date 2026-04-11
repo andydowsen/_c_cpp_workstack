@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "CMakeProject1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CMakeProject1-Debug-d79c54241994b9e153b1.json",
+					"jsonFile" : "target-CMakeProject1-Debug-4f08a180d9ee695d2d56.json",
 					"name" : "CMakeProject1",
 					"projectIndex" : 0
 				}
@@ -50,8 +50,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "X:/potusrepos/C/potusrepo/CMakeProject1/out/build/x64-debug",
-		"source" : "X:/potusrepos/C/potusrepo/CMakeProject1"
+		"build" : "X:/potusrepos/C/potusrepo/CMakeLearnProject1/out/build/x64-debug",
+		"source" : "X:/potusrepos/C/potusrepo/CMakeLearnProject1"
 	},
 	"version" : 
 	{

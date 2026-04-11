@@ -2,22 +2,6 @@
 	"entries" : 
 	[
 		{
-			"name" : "CMAKE_ADDR2LINE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "CMAKE_ADDR2LINE-NOTFOUND"
-		},
-		{
 			"name" : "CMAKE_AR",
 			"properties" : 
 			[
@@ -55,7 +39,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "x:/potusrepos/C/potusrepo/CMakeProject1/out/build/x64-debug"
+			"value" : "x:/potusrepos/C/potusrepo/CMakeLearnProject1/out/build/x64-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -159,7 +143,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_DEBUG",
@@ -175,7 +159,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/MDd /Ob0 /Od /RTC1"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_MINSIZEREL",
@@ -191,7 +175,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/MD /O1 /Ob1 /DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_RELEASE",
@@ -207,7 +191,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/MD /O2 /Ob2 /DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_RELWITHDEBINFO",
@@ -223,7 +207,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/MD /O2 /Ob1 /DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_CXX_STANDARD_LIBRARIES",
@@ -271,7 +255,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/DWIN32 /D_WINDOWS /W3"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_DEBUG",
@@ -287,7 +271,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/MDd /Ob0 /Od /RTC1"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_MINSIZEREL",
@@ -303,7 +287,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/MD /O1 /Ob1 /DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_RELEASE",
@@ -319,7 +303,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/MD /O2 /Ob2 /DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS_RELWITHDEBINFO",
@@ -335,7 +319,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/MD /O2 /Ob1 /DNDEBUG"
 		},
 		{
 			"name" : "CMAKE_C_STANDARD_LIBRARIES",
@@ -352,22 +336,6 @@
 			],
 			"type" : "STRING",
 			"value" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib"
-		},
-		{
-			"name" : "CMAKE_DLLTOOL",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "CMAKE_DLLTOOL-NOTFOUND"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -395,7 +363,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/machine:x64"
 		},
 		{
 			"name" : "CMAKE_EXE_LINKER_FLAGS_DEBUG",
@@ -411,7 +379,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/debug /INCREMENTAL"
 		},
 		{
 			"name" : "CMAKE_EXE_LINKER_FLAGS_MINSIZEREL",
@@ -427,7 +395,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/INCREMENTAL:NO"
 		},
 		{
 			"name" : "CMAKE_EXE_LINKER_FLAGS_RELEASE",
@@ -443,7 +411,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/INCREMENTAL:NO"
 		},
 		{
 			"name" : "CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO",
@@ -459,7 +427,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/debug /INCREMENTAL"
 		},
 		{
 			"name" : "CMAKE_EXPORT_BUILD_DATABASE",
@@ -515,7 +483,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "X:/potusrepos/C/potusrepo/CMakeProject1/out/build/x64-debug/CMakeFiles/pkgRedirects"
+			"value" : "X:/potusrepos/C/potusrepo/CMakeLearnProject1/out/build/x64-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -575,7 +543,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "X:/potusrepos/C/potusrepo/CMakeProject1"
+			"value" : "X:/potusrepos/C/potusrepo/CMakeLearnProject1"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -587,7 +555,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "X:/potusrepos/C/potusrepo/CMakeProject1/out/install/x64-debug"
+			"value" : "X:/potusrepos/C/potusrepo/CMakeLearnProject1/out/install/x64-debug"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -643,7 +611,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/machine:x64"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS_DEBUG",
@@ -659,7 +627,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/debug /INCREMENTAL"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL",
@@ -675,7 +643,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/INCREMENTAL:NO"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELEASE",
@@ -691,7 +659,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/INCREMENTAL:NO"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO",
@@ -707,7 +675,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/debug /INCREMENTAL"
 		},
 		{
 			"name" : "CMAKE_MT",
@@ -726,22 +694,6 @@
 			"value" : "X:/Windows Kits/10/bin/10.0.26100.0/x64/mt.exe"
 		},
 		{
-			"name" : "CMAKE_NM",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "CMAKE_NM-NOTFOUND"
-		},
-		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
 			"properties" : 
 			[
@@ -752,38 +704,6 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "1"
-		},
-		{
-			"name" : "CMAKE_OBJCOPY",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "CMAKE_OBJCOPY-NOTFOUND"
-		},
-		{
-			"name" : "CMAKE_OBJDUMP",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "CMAKE_OBJDUMP-NOTFOUND"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -978,22 +898,6 @@
 			"value" : ""
 		},
 		{
-			"name" : "CMAKE_READELF",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "CMAKE_READELF-NOTFOUND"
-		},
-		{
 			"name" : "CMAKE_ROOT",
 			"properties" : 
 			[
@@ -1019,7 +923,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/machine:x64"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS_DEBUG",
@@ -1035,7 +939,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/debug /INCREMENTAL"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL",
@@ -1051,7 +955,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/INCREMENTAL:NO"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELEASE",
@@ -1067,7 +971,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/INCREMENTAL:NO"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO",
@@ -1083,7 +987,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/debug /INCREMENTAL"
 		},
 		{
 			"name" : "CMAKE_SKIP_INSTALL_RPATH",
@@ -1131,7 +1035,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "/machine:x64"
 		},
 		{
 			"name" : "CMAKE_STATIC_LINKER_FLAGS_DEBUG",
@@ -1198,38 +1102,6 @@
 			"value" : ""
 		},
 		{
-			"name" : "CMAKE_STRIP",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "CMAKE_STRIP-NOTFOUND"
-		},
-		{
-			"name" : "CMAKE_TAPI",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a program."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "CMAKE_TAPI-NOTFOUND"
-		},
-		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
 			"properties" : 
 			[
@@ -1255,7 +1127,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "X:/potusrepos/C/potusrepo/CMakeProject1/out/build/x64-debug"
+			"value" : "X:/potusrepos/C/potusrepo/CMakeLearnProject1/out/build/x64-debug"
 		},
 		{
 			"name" : "CMakeProject1_IS_TOP_LEVEL",
@@ -1279,7 +1151,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "X:/potusrepos/C/potusrepo/CMakeProject1"
+			"value" : "X:/potusrepos/C/potusrepo/CMakeLearnProject1"
 		}
 	],
 	"kind" : "cache",

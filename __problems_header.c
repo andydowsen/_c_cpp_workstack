@@ -112,10 +112,21 @@ static inline void _memory_break(int _explicit_element__) {
 	} 
 }
 
+static int* copy_array__(int target_array[], int _length_array_) {
+	int* allocate = (int*)malloc(_length_array_ * sizeof(int));
+	for (unsigned int i = 0; i < _length_array_; i++) {
+		*(allocate + i) = *(target_array + i);
+	}  return allocate;
+	free(allocate);
+}
 
 static int print_face_work() {
 	int target_array__[] = { 2, 2, 4, 1, 9 };
 	int size_of_array__ = sizeof(target_array__) / sizeof(target_array__[0]);
-	_memory_break(3);
+	int* copy_array_ =  copy_array__(target_array__, size_of_array__);
+	target_array__[3] = 2342; // test case if copy is failed or not? 
+	for (unsigned int i = 0; i < size_of_array__; i++) {
+		printf("copy{%d} = %d\n", i, copy_array_[i]);
+	}
 	return 0; 
 }

@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"X:/potusrepos/C/potusrepo/CMakeProject1/out/build/x64-debug/cmake_install.cmake"
+		"X:/potusrepos/C/potusrepo/CMakeLearnProject1/out/build/x64-debug/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
