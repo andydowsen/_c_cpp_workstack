@@ -21,3 +21,4 @@ Preporatory closure date: (1 June 2027)
 ## Feedback
 
 If you have any suggestions, raise an issue in my repo _c_cpp_workstack
+UPDATE: It's halted for 2.3 months more, I have my Research Exam, coming. 
